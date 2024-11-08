@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*HEADING*/
+.top-heading {
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+}
+
+.heading-contents {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu i {
+    margin: 10px;
+    font-size: 20px;
+    color: #000;
+}
+
+.logo img {
+    height: 50px;
+    width: 100px;
+}
+
+.actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.wishlist i {
+
+}
+
+.cart  i {
+    margin: 15px;
+    font-size: 20px;
+    color: #000;
+}
+
+
+
+/*MAIN*/
+
+
+
+/*SEARCHBAR*/
+.searchbar{
+    height: 40px;
+    border: 0px;
+    border-radius: 2px;
+    background-color: rgb(235, 236, 240);
+    color: rgba(0, 0, 0, 0.36);
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.search-icon{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 236, 240);
+    font-size: 1.2rem;
+    color: rgb(163, 170, 176);
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1.15rem;
+    background-color: rgb(235, 236, 240);
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-left: 0.25rem;
+    text-align: left;
+}
+
+
+
+/*HERO SECTION*/
+.hero-section{
+    margin-top: 30px;
+    margin-left: 25px;
+    height: 400px;
+    background-image: url("https://images-static.nykaa.com/uploads/5b49749e-d6b0-410c-84a2-4f94d8a8c450.jpg?tr=w-1200,cm-pad_resize");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 1300px;
+}
+
+
+
+/*OPTIONS*/
+.optionsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.container img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+/*OFFER*/
+.offerText {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.text h2 {
+    color: #5c6873;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+    padding: 1rem 0px 0.5rem 0px;
+    margin-bottom: 0.85rem;
+}
+
+.text p {
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: left;
+    margin: 0 24px 0 0;
+    padding: 0 24px 0 0;
+}
+
+.offerImage img {
+    height: 300px;
+    width: 1300px;
+    margin: 25px;
+}
+
+
+
+/*FINDS WEEK*/
+.finds {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.box {
+    height: 400px;
+    width: 20%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content img {
+    height: 275px;
+    width: 275px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content  h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.box-content p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+
+/*FOOTER*/
+.footerPanel1 {
+    background-color: #333333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+
+.download {
+    flex: 1 0 auto;
+}
+
+.text {
+    text-align: center;
+    line-height: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 8px;
+    padding: 8px;
+}
+
+.downloadApp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+.playstore-button {
+    display: block;
+    margin-right: 1.25rem;
+}
+
+.appstore-button {
+    display: block;
+    margin-right: 1.25rem;
+}
+
+.help {
+    flex: 1 0 auto;
+}
+
+.helpText {
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.helpText h3 {
+    font-weight: 600;
+}
+
+.footerPanel2{
+    background-color: #F3F2F2;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    height: 225px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p {
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+.footerPanel2 i {
+    display: inline-block;
+    margin: 5px 10px;
+    height: 24px;
+    width: 30px;
+    font-size: 20px;
+}
+
+.footerPanel3{
+    background-color: white;
+    color: gray;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    height: 275px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerPanel4 {
+    background-color: #fd7685;
+    color: #ffffff;
+    height: 50px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1rem;
+    padding: 15px;
+}
+
+
+
+/*PLAYSTORE BUTTON*/
+.playstore-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 9999px;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 0.625rem 1.5rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    outline: 0;
+    transition: all  .2s ease;
+    text-decoration: none;
+}
+.playstore-button:hover {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 1);
+} 
+.icon {
+    height: 1.5rem;
+    width: 1.5rem;
+} 
+.texts {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1;
+} 
+.text-1 {
+    margin-bottom: 0.25rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+} 
+.text-2 {
+    font-weight: 600;
+}
+
+
+
+/*APPSTORE BUTTON*/
+.appstore-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 12px;
+    border: 3px solid rgb(189, 189, 189);
+    background-color: rgb(15, 15, 15);
+    border-radius: 15px;
+    gap: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0px 0px 100px -30px rgb(255, 255, 255);
+}
+.appstore-button svg {
+    width: 30px;
+}
+.appstore-button svg path {
+    fill: white;
+    transition: all 0.3s;
+}
+.button-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    transition: all 0.3s;
+}
+.top-text {
+    font-size: 13px;
+    font-weight: 600;
+}
+.bottom-text {
+    font-size: 24px;
+    font-weight: 600;
+}  
+.appstore-button:hover {
+    background-color: rgb(236, 236, 236);
+    border: 3px solid rgb(138, 138, 138);
+}
+.appstore-button:hover .button-text {
+    color: black;
+}
+.appstore-button:hover svg path {
+    fill: black;
+}
+
+
+
